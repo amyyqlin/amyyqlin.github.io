@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    /* Add 20px of padding to the left and right edges */
+}
+
+.portfolio-header {
+    font-size: calc(10vw);
+    line-height: 1;
+    text-align: center;
+}
+
+.name {
+    font-size: calc(12vw);
+    /* Make the name font size bigger than the profession font size */
+}
+
+.profession {
+    font-size: calc(6vw);
+}
+
+@media (min-width: 768px) {
+    .portfolio-header {
+        font-size: 7.2rem;
+        /* Set a fixed font size for larger screens */
+    }
+
+    .name {
+        font-size: 8.4rem;
+    }
+
+    .profession {
+        font-size: 4.8rem;
+    }
+}
